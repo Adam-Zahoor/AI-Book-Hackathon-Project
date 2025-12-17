@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="512" viewBox="0 0 1024 512">
+  <rect width="1024" height="512" fill="#2e8555"/>
+  <text x="512" y="256" font-family="Arial" font-size="48" fill="white" text-anchor="middle">Physical AI and Robotics Book</text>
+  <text x="512" y="320" font-family="Arial" font-size="24" fill="white" text-anchor="middle">A Comprehensive Guide to AI Systems in the Physical World</text>
+</svg>

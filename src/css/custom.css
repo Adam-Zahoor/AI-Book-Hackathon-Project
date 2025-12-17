@@ -1,0 +1,37 @@
+/* Only fix the logo size in navbar to prevent oversized placeholder */
+.navbar__logo {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__logo img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  max-width: 32px;
+  max-height: 32px;
+}
+
+/* Apply the standard Docusaurus primary green color */
+:root {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #19866e;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+}
+
+/* Enable smooth scrolling for the entire site */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Additional smooth scrolling for anchor links */
+a[href^="#"] {
+  scroll-behavior: smooth;
+}
