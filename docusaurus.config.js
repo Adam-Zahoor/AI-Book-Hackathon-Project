@@ -12,7 +12,7 @@ const config = {
   url: 'https://physical-ai-book.github.io',  // GitHub username or organization name
   // Set the /<base> pathname under which your site is served
   // For GitHub pages deployment, it is often '/<org-name>/<repo-name>'
-  baseUrl: '/physical-ai-book-docusaurus/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
